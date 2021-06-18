@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS';
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.navbar {
+    width: 90%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul li {
+    text-transform: uppercase;
+    list-style-type: none;
+    margin: 15px;
+    display: inline-block;
+    color: #333;
+    cursor: pointer;
+    letter-spacing: 7pz;
+    font-size: 18px;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+
+.left {
+    margin-left: 7%;
+}
+
+.left h1 {
+    font-size: 60px;
+    color: white;
+    line-height: 110px;
+    float: left;
+    text-transform: uppercase;
+    letter-spacing: 25px;
+}
+
+.right {
+    float: right;
+    margin-right: 7%;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.right p {
+    font-size: 18px;
+    color: #333;
+    font-weight: 400;
+    margin-right: 15px;
+}
+
+#icon {
+    width: 80px;
+    cursor: pointer;
+    color: #333;
+}
+
+.active {
+    color: palevioletred !important;
+    transform: scale(0.9);
+}
